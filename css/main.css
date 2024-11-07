@@ -154,4 +154,39 @@ body {
   margin-top: 15px;
 }
 
-/* Etart Landing */
+/* End Landing */
+
+/* Start Features */
+
+.features {
+  padding: 60px 0;
+  background-color: #f6f6f6;
+}
+
+.features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.features .content {
+  text-align: center;
+  padding: 20px;
+}
+
+.features .content i {
+  color: var(--main-color);
+}
+
+.features .content h3 {
+  margin: 25px 0;
+  font-weight: 800;
+}
+
+.features .content p {
+  line-height: 1.7;
+  color: #777;
+  font-size: 1rem;
+}
+
+/* End Features */
