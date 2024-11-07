@@ -1,6 +1,6 @@
 /* Start variables  */
 :root {
-  --main-color: red;
+  --main-color: #10cab7;
 }
 /* End variables  */
 
@@ -68,7 +68,7 @@ body {
   height: 2px;
   width: 100%;
   background-color: black;
-  margin-top: 7px;
+  margin-top: 5px;
 }
 
 .nav .line:nth-child(2) {
@@ -88,17 +88,18 @@ body {
 .list {
   position: absolute;
   list-style: none;
-  top: 45px;
+  top: 40px;
   right: 0px;
-  background-color: #eee;
+  background-color: #f6f6f6;
   display: none;
+  z-index: 999;
 }
 
 .list::after {
   content: "";
   position: absolute;
-  border: 10px solid #ddd;
-  border-color: transparent transparent #ddd transparent;
+  border: 10px solid #f6f6f6;
+  border-color: transparent transparent #f6f6f6 transparent;
   top: -20px;
   right: 5px;
 }
@@ -124,3 +125,33 @@ body {
 }
 
 /* End header */
+
+/* Start Landing */
+
+.landing {
+  background-image: url(../images/landing.jpg);
+  height: calc(100vh - 65px);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing .land-cont {
+  width: 320px;
+  text-align: center;
+  max-width: 100%;
+}
+
+.landing h1 {
+  color: var(--main-color);
+  font-size: 3rem;
+}
+
+.landing p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+/* Etart Landing */
