@@ -337,6 +337,15 @@ body {
   color: #777;
 }
 
+@media (max-width: 500px) {
+  .portfolio .head-section {
+    font-size: 4rem;
+  }
+
+  .portfolio .head-section + p {
+    font-size: 1rem;
+  }
+}
 /* End portfolio */
 
 /* Start About */
@@ -460,9 +469,6 @@ body {
   color: var(--main-color);
   text-decoration: none;
   margin-bottom: 20px;
-}
-
-.contact .info .social {
 }
 
 .contact .info .social i {
